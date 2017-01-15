@@ -1,0 +1,7 @@
+// Empty List:
+const list = Immutable.List();
+
+// Output:
+list;
+
+Array []

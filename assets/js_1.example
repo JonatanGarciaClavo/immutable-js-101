@@ -1,0 +1,6 @@
+// Javascript mutating Array.push
+const collection = new Array('ironMan');
+collection.push('captainAmerica');
+
+// Output:
+collection;

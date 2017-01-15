@@ -1,0 +1,11 @@
+const ABRecord = Record({a:1, b:2})
+const myRecord = new ABRecord({b:3})
+myRecord.size // 2
+myRecord.get('a') // 1
+myRecord.get('b') // 3
+myRecordWithoutB = myRecord.remove('b')
+myRecordWithoutB.get('b') // 2
+myRecordWithoutB.size // 2
+
+const myOtherRecord = new ABRecord({b:3, x:10})
+myOtherRecord.get('x') // undefined

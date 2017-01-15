@@ -1,0 +1,10 @@
+const avengers = [
+  'ironMan', // index [0]
+  ['captainAmerica', // index [1][0]
+   ['blackWidow', // index [1][1][0]
+    ['theHulk'] // index [1][1][1][0]
+   ]
+  ]
+];
+const avengersList = Immutable.fromJS(avengers);
+avengersList.getIn([1, 1, 1]); // output???

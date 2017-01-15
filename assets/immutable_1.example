@@ -1,0 +1,6 @@
+// Immutable.js non-mutating List.push
+const collection = Immutable.List.of('ironMan');
+collection.push('captainAmerica');
+
+// Output:
+collection;
